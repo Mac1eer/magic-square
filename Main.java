@@ -11,7 +11,7 @@ public class Main {
         int sumDiagonalRight = 0;
         for (int i = 0; i < matrix.length; i++) {
             System.out.printf("Введите %d строку \n", i + 1);
-            for (int j = 0; j < matrix[i].length; j++) {
+            for (int j = 0; j < matrix.length; j++) {
                 matrix[i][j] = input.nextInt();
             }
         }
